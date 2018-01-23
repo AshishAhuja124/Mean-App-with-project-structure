@@ -1,0 +1,19 @@
+<nav class='navbar navbar-default'>
+  <div class='container-fluid'>
+    <li><a [routerLink]="['/home']">Home</a></li>
+    <li><a [routerLink]="['/add']">Add Employee</a></li>
+    <li><a [routerLink]="['/add']">Add Employee</a></li>
+    
+    <app-human></app-human>
+  </div>
+</nav>
+<router-outlet></router-outlet>
+
+
+
+<app-navbar></app-navbar>
+<div class="container">   
+  <router-outlet></router-outlet>
+  <h4 class="well">This is a simple MEAN web application with CRUD operation.    
+	</h4>
+</div>
