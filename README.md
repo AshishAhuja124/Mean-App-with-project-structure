@@ -1,1 +1,1 @@
-# Process-Global-keyword-Example
+# Mean App with project structure
